@@ -14,7 +14,7 @@ def self.all
 end
 
 def author_name 
-    self.artist.name if self.artist 
+    self.author.name if self.author 
   end
 end
 
