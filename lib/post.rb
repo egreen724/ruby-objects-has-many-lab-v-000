@@ -15,6 +15,7 @@ end
 
 def author_name 
     self.artist.name if self.artist 
+  end
 end
 
   
